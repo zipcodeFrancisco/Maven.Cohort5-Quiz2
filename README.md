@@ -1,6 +1,6 @@
 # Quiz 2
 
-This test is broken up into 6 sections. Each section has its own README. Click on the link to go to the section README.
+This test is broken up into 3 sections. Each section has its own README. Click on the link to go to the section README.
 
 
 | Name | Topic |
@@ -8,8 +8,6 @@ This test is broken up into 6 sections. Each section has its own README. Click o
 | **part1**       |   [WuTangConcatenator](Part1-Conditional-README.md) |
 | **part2**       |   [Collections](Part2-Collections-README.md) |
 | **part3**       |   [Interface & Abstract](Part3-Interface-README.md) |
-| **part4**       |   [Exception & Logging](Part4-CSV-README.md) |
-| **part5**       |   [SQL](Part5-SQL-README.md) |
 
 
 ## MAKE SURE YOUR CODE COMPILES. NO EXCEPTIONS!!!!
