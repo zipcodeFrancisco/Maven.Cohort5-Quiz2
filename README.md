@@ -29,8 +29,3 @@ Your entire project MUST COMPILE without errors.
       * No, work on the test IN ORDER, and complete as much as you can
   * Am I allowed to take a break?
      * Yes, take as many breaks as you like. However do not talk about the test.	  	
-
-
-### Bonus
-If you are done before the alloted time, work on this [Map lab](https://git.zipcode.rocks/nhu313/Lab-ZipcoderStore-HashMap). 
-https://git.zipcode.rocks/nhu313/Lab-ZipcoderStore-HashMap
