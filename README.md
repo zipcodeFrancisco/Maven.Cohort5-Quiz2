@@ -1,4 +1,4 @@
-# Java Assessment 2
+# Quiz 2
 
 This test is broken up into 6 sections. Each section has its own README. Click on the link to go to the section README.
 
