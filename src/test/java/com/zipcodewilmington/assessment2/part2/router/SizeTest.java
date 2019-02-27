@@ -4,8 +4,6 @@ import com.zipcodewilmington.assessment2.part2.Router;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.io.Serializable;
-
 public class SizeTest {
 
     @Test
