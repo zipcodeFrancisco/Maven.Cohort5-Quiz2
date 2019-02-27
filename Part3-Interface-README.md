@@ -3,18 +3,18 @@
 ### Section 1: The Animals
 Create the following animals:
 1. `Horse` is a concrete class which implements Animal.
-    - `move` will return `gallop`
-    - `color` will return `brown` (Yes I am aware not all horses are brown.)
+    - `move` will return the string `"gallop"`
+    - `color` will return the string `"brown"` (Yes I am aware not all horses are brown.)
     - `getSpeed` will return `40`
     - Uncomment the `src/test/java/com/zipcodewilmington/part3/HorseTest` code. All the test should pass.
 2. `Bird` is an abstract class that implements Animal.
-    1. `move` will return `fly` (Yes I am aware not all birds fly.)
+    1. `move` will return the string `"fly"` (Yes I am aware not all birds fly.)
 3. `BlueJay` is a concrete class which extends from Bird
-    - `color` will return `blue`
+    - `color` will return the string `"blue"`
     - `speed` will return `13`
     - Uncomment the `src/test/java/com/zipcodewilmington/part3/BlueJayTest`
 4. `RedRobin` is a concrete class which extends from Bird
-    - `color` will return `red`
+    - `color` will return the string `"red"`
     - `speed` will return `10`
     - Add a `String migrationMonth` field. Add a getter and setter for it.
     - Uncomment the `src/test/java/com/zipcodewilmington/part3/RedRobinTest`
