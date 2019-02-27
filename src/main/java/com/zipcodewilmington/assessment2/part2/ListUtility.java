@@ -22,4 +22,8 @@ public class ListUtility {
     public Integer mostCommon() {
         return null;
     }
+
+    public Boolean contains(Integer valueToAdd) {
+        return null;
+    }
 }
