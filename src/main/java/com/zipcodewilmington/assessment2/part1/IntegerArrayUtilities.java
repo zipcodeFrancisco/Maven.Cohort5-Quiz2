@@ -8,4 +8,8 @@ public class IntegerArrayUtilities {
     public Integer[] range(int start, int stop) {
         return null;
     }
+
+    public Integer getSumOfFirstTwo(Integer[] array) {
+        return null;
+    }
 }
