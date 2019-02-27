@@ -24,6 +24,7 @@ public class RemovePathTest {
         // given
         Router router = new Router();
         router.add(path, controller);
+        Assert.assertNotNull(router.getController(path));
 
         // when
         router.remove(path);
