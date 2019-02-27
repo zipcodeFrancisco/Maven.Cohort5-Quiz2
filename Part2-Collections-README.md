@@ -1,8 +1,7 @@
 # Part 2 - Collections
 
 ## Section 1 - ArrayUtility
-1. In `src/test/java/com/zipcodewilmington/part2/ArrayUtilitiesTest` uncomment the test file. You can uncomment by selecting all the commented part and press `Command` and `/`.
-2. Make all the tests pass
+2. Ensure all the tests pass
 
 ### Methods
 1. `Integer[] merge(Integer[] array1, Integer[] array2)` - given two arrays, create a new array with elements from both array. Return the new array.
@@ -13,7 +12,6 @@ For example, given `Integer[] array = {5, 4, 2, 18};`, calling `utility.rotate(a
 
 
 ## Section 2 - ListUtility
-1. In `src/test/java/com/zipcodewilmington/part2/ListUtilitiesTest` uncomment the test file. You can uncomment by selecting all the commented part and press `Command` and `/`.
 2. Create a new class named `ListUtility` in `src/test/java/com/zipcodewilmington/part2/`
 3. Make all the tests pass
 
@@ -28,7 +26,6 @@ For example, given `Integer[] array = {5, 4, 2, 18};`, calling `utility.rotate(a
 In a common web application framework, there is usually a Router class which figures out which class to call when the user goes to a certain url. The class that actually handle the user request are called the controller. 
 In this section we will write a basic router which stores the url path and the associated controller. 
 
-1. In `src/test/java/com/zipcodewilmington/part2/RouterTest` uncomment the test file. You can uncomment by selecting all the commented part and press `Command` and `/`.
 2. Create a new class named `Router` in `src/test/java/com/zipcodewilmington/part2/`
 3. Make all the tests pass
 
