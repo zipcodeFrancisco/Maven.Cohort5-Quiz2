@@ -1,7 +1,6 @@
 package com.zipcodewilmington.assessment2.part2.router;
 
 import com.zipcodewilmington.assessment2.part2.Router;
-import javafx.beans.NamedArg;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -54,20 +53,20 @@ public class SizeTest {
         Assert.assertEquals(expectedSize, actualSize);
     }
 
-    class Pair<K, V> implements Serializable {
-        private K key;
-        private V value;
+    class Pair<KeyType, ValueTyp> {
+        private KeyType key;
+        private ValueTyp value;
 
-        public Pair(@NamedArg("key") K key, @NamedArg("value") V value) {
+        public Pair(KeyType key, ValueTyp value) {
             this.key = key;
             this.value = value;
         }
 
-        public K getKey() {
+        public KeyType getKey() {
             return key;
         }
 
-        public V getValue() {
+        public ValueTyp getValue() {
             return value;
         }
     }
