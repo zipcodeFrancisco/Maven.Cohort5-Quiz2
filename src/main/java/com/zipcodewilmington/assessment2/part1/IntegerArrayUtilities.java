@@ -12,4 +12,8 @@ public class IntegerArrayUtilities {
     public Integer getSumOfFirstTwo(Integer[] array) {
         return null;
     }
+
+    public Integer getProductOfFirstTwo(Integer[] array) {
+        return null;
+    }
 }
