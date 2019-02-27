@@ -12,4 +12,8 @@ public class BasicUtilities {
     public Boolean isBetween5And7(Integer valueToEvaluate) {
         return null;
     }
+
+    public Boolean startsWith(String string, Character character) {
+        return null;
+    }
 }
