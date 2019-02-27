@@ -22,7 +22,7 @@ public class IsLessThan7Test {
 
     @Test
     public void test4() {
-        test(7, false);
+        test(7, true);
     }
 
 

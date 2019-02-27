@@ -8,7 +8,7 @@ public class IsBetween5And7Test {
 
     @Test
     public void test0() {
-        test(0, true);
+        test(0, false);
     }
 
     @Test

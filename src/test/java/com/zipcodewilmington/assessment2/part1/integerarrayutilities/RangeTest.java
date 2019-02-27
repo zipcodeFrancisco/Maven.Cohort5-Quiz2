@@ -1,8 +1,11 @@
 package com.zipcodewilmington.assessment2.part1.integerarrayutilities;
 
+import com.zipcodewilmington.assessment2.TestUtils;
 import com.zipcodewilmington.assessment2.part1.IntegerArrayUtilities;
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.util.Arrays;
 
 public class RangeTest {
 
@@ -48,6 +51,6 @@ public class RangeTest {
         Integer[] actual = integerArrayUtilities.range(start, stop);
 
         // then
-        Assert.assertArrayEquals(expected, actual);
+        TestUtils.assertArrayEquals(expected, actual);
     }
 }

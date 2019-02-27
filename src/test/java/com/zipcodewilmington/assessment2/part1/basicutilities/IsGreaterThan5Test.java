@@ -7,7 +7,7 @@ import org.junit.Test;
 public class IsGreaterThan5Test {
     @Test
     public void test1() {
-        test(5, false);
+        test(5, true);
     }
 
     @Test
@@ -17,12 +17,12 @@ public class IsGreaterThan5Test {
 
     @Test
     public void test3() {
-        test(6, false);
+        test(6, true);
     }
 
     @Test
     public void test4() {
-        test(7, false);
+        test(7, true);
     }
 
 
