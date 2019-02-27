@@ -1,13 +1,11 @@
 package com.zipcodewilmington.assessment2.part2.router;
 
 import com.zipcodewilmington.assessment2.part2.Router;
-import javafx.util.Pair;
+import javafx.beans.NamedArg;
 import org.junit.Assert;
 import org.junit.Test;
 
-import javax.naming.CompoundName;
-import java.util.Arrays;
-import java.util.List;
+import java.io.Serializable;
 
 public class SizeTest {
 
@@ -54,5 +52,23 @@ public class SizeTest {
 
         // then
         Assert.assertEquals(expectedSize, actualSize);
+    }
+
+    class Pair<K, V> implements Serializable {
+        private K key;
+        private V value;
+
+        public Pair(@NamedArg("key") K key, @NamedArg("value") V value) {
+            this.key = key;
+            this.value = value;
+        }
+
+        public K getKey() {
+            return key;
+        }
+
+        public V getValue() {
+            return value;
+        }
     }
 }
